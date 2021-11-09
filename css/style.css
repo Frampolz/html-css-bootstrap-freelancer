@@ -10,6 +10,9 @@
     --blue: #0e38b5;
     --brown: #ccb2a3;
 }
+html {
+    font-size: 100%;
+}
 
 /* header */
 
@@ -24,6 +27,10 @@
     font-weight: bold;
 }
 
+.right_menu {
+    display: flex;
+}
+
 .right_menu ul li {
     display: inline-block;
 
@@ -36,6 +43,17 @@
 .hamburger_menu {
     text-align: right;
     display: none;
+}
+
+@media screen and (max-width: 767.98px) {
+.right_menu ul {
+    display: none;
+
+}
+.hamburger_menu {
+    text-align: right;
+    display: block;
+}
 }
 
 .fa-bars {
@@ -58,6 +76,7 @@
 
 /* main */
 
+/* portfolio */
 .thumbs_img {
     background-color: var(--red);
     width: 350px;
@@ -65,10 +84,12 @@
     margin-bottom: 1em;
 }
 
+/* about */
 .about_section {
     background-color: var(--bc-green);
 }
 
+/* form */
 .form_section {
     background-color: yellowgreen;
     height: 500px;
@@ -80,6 +101,7 @@
 }
 
 /* footer */
+/* contact */
 .contact_row {
     background-color: var(--bc-lighgrey);
 }
@@ -90,18 +112,8 @@
     background-color: silver;
 }
 
+/* copyright */
 .copyright_row {
     background-color: var(--bc-grey);
     height: 50px;
-}
-
-@media screen and (max-width: 767.98px) {
-.right_menu ul {
-    display: none;
-
-}
-.hamburger_menu {
-    text-align: right;
-    display: block;
-}
 }
