@@ -2,71 +2,106 @@
     --bc-green: #1ABC9C;
     --bc-grey: #2c3e50;
     --bc-lighgrey: #3a546d;
+    /* thumbs */
+    --red: #ba4b63;
+    --green: #1ea4b6;
+    --black: #140f0f;
+    --cyan: #1c83c1;
+    --blue: #0e38b5;
+    --brown: #ccb2a3;
 }
 
+/* header */
 
-.col-1 {
-    border: 1px solid black;
-    height: 50px;
-}
-
-/* common */
-.pad-reset {
-   padding-left: 0;
-   padding-right: 0; 
-}
-/* color div */
-.menu_bc {
+.nav_bar {
     background-color: var(--bc-grey);
-    height: 80px;
+    height: 100px;
 }
 
-.container_bc {
+.left_menu h2 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.right_menu ul li {
+    display: inline-block;
+
+}
+.right_menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger_menu {
+    text-align: right;
+    display: none;
+}
+
+.fa-bars {
+    font-size: 2em;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0.1em 0.4em;
+    color: gray;
+}
+
+.my_jumbotron {
     background-color: var(--bc-green);
-   
-    
 }
 
-
-.col_bc {
-    background-color: blue;
+.white_star {
+    color: white;
 }
 
-.my_bc {
+/* /header */
+
+/* main */
+
+.thumbs_img {
+    background-color: var(--red);
+    width: 350px;
+    height: 250px;
+    margin-bottom: 1em;
+}
+
+.about_section {
+    background-color: var(--bc-green);
+}
+
+.form_section {
+    background-color: yellowgreen;
+    height: 500px;
+}
+
+.form_row {
+    height: 350px;
     background-color: red;
 }
 
-.col-color {
-    background-color: violet;
-    
+/* footer */
+.contact_row {
+    background-color: var(--bc-lighgrey);
 }
 
-.first_sec {
-    height: 800px;
-    
+.contact {
+    width: 300px;
+    height: 150px;
+    background-color: silver;
 }
 
-.first_sec_row {
-    height: 600px;
+.copyright_row {
+    background-color: var(--bc-grey);
+    height: 50px;
 }
 
-.col-4.col-color {
-    text-align: center;
-}
+@media screen and (max-width: 767.98px) {
+.right_menu ul {
+    display: none;
 
-.col-color1 {
-    background-color: violet;
-    margin-right: 2em;
-    margin-bottom: 2em;
-    
 }
-
-.second_sec,
-.third_sec {
-    height: 500px;
-    
+.hamburger_menu {
+    text-align: right;
+    display: block;
 }
-
-.footer_top {
-    background-color:var(--bc-lighgrey)
 }
