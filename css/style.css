@@ -3,6 +3,16 @@
     --bc-grey: #2c3e50;
 }
 
+.first_row {
+    display: flex;
+    justify-content: center;
+}
+
+.col-1 {
+    border: 1px solid black;
+    height: 50px;
+}
+
 /* common */
 .flex {
     display: flex;
@@ -55,4 +65,8 @@
     margin-right: 2em;
     margin-bottom: 2em;
     
+}
+
+.second_sec {
+    height: 500px;
 }
