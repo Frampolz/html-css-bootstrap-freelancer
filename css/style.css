@@ -3,16 +3,26 @@
     --bc-grey: #2c3e50;
 }
 
+/* common */
+.flex {
+    display: flex;
+}
+
+.pad-reset {
+   padding-left: 0;
+   padding-right: 0; 
+}
+.menu_bc {
+    background-color: var(--bc-grey);
+    height: 80px;
+}
+
 .container_bc {
     background-color: var(--bc-green);
    
     
 }
 
-.menu_bc {
-    background-color: var(--bc-grey);
-    height: 50px;
-}
 
 .col_bc {
     background-color: blue;
@@ -20,4 +30,29 @@
 
 .my_bc {
     background-color: red;
+}
+
+.col-color {
+    background-color: violet;
+    
+}
+
+.first_sec {
+    height: 600px;
+    
+}
+
+.first_sec_row {
+    height: 500px;
+}
+
+.col-4.col-color {
+    text-align: center;
+}
+
+.col-color1 {
+    background-color: violet;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    
 }
