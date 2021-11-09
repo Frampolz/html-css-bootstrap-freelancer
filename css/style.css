@@ -1,0 +1,23 @@
+:root {
+    --bc-green: #1ABC9C;
+    --bc-grey: #2c3e50;
+}
+
+.container_bc {
+    background-color: var(--bc-green);
+   
+    
+}
+
+.menu_bc {
+    background-color: var(--bc-grey);
+    height: 50px;
+}
+
+.col_bc {
+    background-color: blue;
+}
+
+.my_bc {
+    background-color: red;
+}
