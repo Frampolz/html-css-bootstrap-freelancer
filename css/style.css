@@ -10,13 +10,22 @@
     --blue: #0e38b5;
     --brown: #ccb2a3;
 }
+
+/* Extend Bootstrap Utilities */
+.pb-6 {
+  padding-bottom: 4rem!important;
+}
+.pt-6 {
+  padding-top: 4rem!important;
+}
+
 html {
     font-size: 100%;
 }
 
 /* header */
 
-.nav_bar {
+.header {
     background-color: var(--bc-grey);
     height: 100px;
 }
@@ -64,9 +73,10 @@ html {
     color: gray;
 }
 
-.my_jumbotron {
+.bg-green {
     background-color: var(--bc-green);
 }
+
 
 .white_star {
     color: white;
@@ -79,41 +89,12 @@ html {
 /* portfolio */
 .thumbs_img {
     background-color: var(--red);
-    width: 350px;
+    width: 100%;
     height: 250px;
-    margin-bottom: 1em;
+    
 }
 
 /* about */
-.about_section {
+.bg-green {
     background-color: var(--bc-green);
-}
-
-/* form */
-.form_section {
-    background-color: yellowgreen;
-    height: 500px;
-}
-
-.form_row {
-    height: 350px;
-    background-color: red;
-}
-
-/* footer */
-/* contact */
-.contact_row {
-    background-color: var(--bc-lighgrey);
-}
-
-.contact {
-    width: 300px;
-    height: 150px;
-    background-color: silver;
-}
-
-/* copyright */
-.copyright_row {
-    background-color: var(--bc-grey);
-    height: 50px;
 }

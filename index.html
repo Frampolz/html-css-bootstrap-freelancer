@@ -17,118 +17,129 @@
 </head>
 <body>
     <!-- header -->
-   <header class="my_header">
-        <div class="container-sm header_container px-0">
-            <div class="row nav_bar align-items-center px-4 g-0">
-                <div class="col-7 left_menu">
+   <header class="header">
+        <div class="container">
+            <div class="row nav_bar align-items-center">
+                <div class="col-6 left_menu">
                     <h2>start bootstrap</h2>
                 </div>
-                <div class="col-5 right_menu justify-content-end">
+                <div class="hamburger_menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="col-6 right_menu justify-content-end">
                     <ul>
                         <li><a href="">portfolio</a></li>
                         <li><a href="">about</a></li>
                         <li><a href="">contact</a></li>
                     </ul>
-                    <div class="hamburger_menu">
-                        <i class="fas fa-bars"></i>
-                    </div>
                 </div>
             </div>
-            <div class="container-sm my_jumbotron">
-                <div class="row justify-content-center">
-                    <div class="col-3">
-                        <img src="" alt="">
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-7 text-center">
-                        <h1>start bootstrap</h1>
-                        <i class="fas fa-star white_star"></i>
-                        <p>graphic artist - web designer - illustrator</p>
-                    </div>
-                </div>
-            </div>
-
+            
         </div>
-   </header>
+    </header>
     <!-- /header -->
+    <!-- jumbotron -->
+    <section class="jumbotron bg-green">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-7 text-center">
+                    <h1>start bootstrap</h1>
+                    <i class="fas fa-star white_star"></i>
+                    <p>graphic artist - web designer - illustrator</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- main -->
     <main>
-        <section>
-            <div class="container-sm">
-                <div class="row title-section justify-content-center">
-                    <div class="col-3 text-center">
+        <!-- portfolio -->
+        <section class="portfolio">
+            <div class="container pt-6 pb-6">
+                <div class="row title-section">
+                    <div class="col-12 text-center">
                         <h2>portfolio</h2>
                         <i class="fas fa-star"></i>
                     </div>
-                </div>
-                <div class="row thumbs_row px-5 mt-3 justify-content-center">
-                    <div class="col">
+                    <div class="col-12 col-sm-6 col-md-4 mb-3">
                         <div class="thumbs_img"></div>
                     </div>
-                    <div class="col">
+                    <div class="col-12 col-sm-6 col-md-4 mb-3">
                         <div class="thumbs_img"></div>
                     </div>
-                    <div class="col">
+                    <div class="col-12 col-sm-6 col-md-4 mb-3">
                         <div class="thumbs_img"></div>
                     </div>
-                    <div class="col">
+                    <div class="col-12 col-sm-6 col-md-4 mb-3">
                         <div class="thumbs_img"></div>
                     </div>
-                    <div class="col">
+                    <div class="col-12 col-sm-6 col-md-4 mb-3">
                         <div class="thumbs_img"></div>
                     </div>
-                    <div class="col">
+                    <div class="col-12 col-sm-6 col-md-4 mb-3">
                         <div class="thumbs_img"></div>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
-            <div class="container-sm about_section">
-                <div class="row title-section justify-content-center">
-                    <div class="col-3 text-center">
-                        <h2>about</h2>
-                        <i class="fas fa-star white_star"></i>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero molestias natus exercitationem autem laboriosam accusamus, vitae ducimus. Recusandae doloremque magnam culpa debitis laudantium eaque accusamus repellendus qui officiis labore. Nesciunt. </div>
-                    <div class="col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus repudiandae ut, officia eveniet sunt repellat, suscipit, incidunt similique aut expedita reprehenderit numquam culpa nesciunt? Natus pariatur aperiam sed nobis tempore?</div>
-                </div>
-                <div class="row">
-                    <div class="col-3 text-center"></div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="container-sm form_section">
-                <div class="row title-section justify-content-center">
-                    <div class="col-3 text-center">
-                        <h2>contact me</h2>
-                        <i class="fas fa-star"></i>   
+        <!-- /portfolio -->
+
+        <!-- about -->
+        <section class="about bg-green">
+            <div class="container pt-6 pb-6">
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 mb-3">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium sunt obcaecati cum, eaque tempora illo, mollitia odio expedita quaerat dolore unde impedit! Labore alias nisi deleniti aut magni itaque aperiam?
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error repudiandae libero quisquam qui necessitatibus, totam, quae itaque labore numquam exercitationem commodi nulla id ipsum dignissimos laborum adipisci ex consectetur ad!
+                            </div>
                         </div>
                     </div>
-                    <div class="row form_row justify-content-center">
-                        <div class="col-9"></div>
+                </div>
+            </div>
+        </section>
+        <!-- /about -->
+
+        <!-- contact -->
+        <section class="contact">
+            <div class="container pt-6 pb-6">
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores veritatis incidunt sequi, ipsa vero laboriosam perspiciatis aperiam temporibus quas quo similique autem! Fugiat laboriosam vero a fugit voluptatem, eum culpa.
                     </div>
                 </div>
             </div>
         </section>
+        <!-- /contact -->
     </main>
     <!-- /main -->
     <!-- footer -->
-    <footer>
-       <div class="container-sm">
-           <div class="row contact_row justify-content-around">
-               <div class="col-3 contact"></div>
-               <div class="col-3 contact"></div>
-               <div class="col-3 contact"></div>
-           </div>
-            <div class="row copyright_row justify-content-center">
-                <div class="col-3"></div>
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, aliquam earum! Recusandae, vitae perspiciatis</div>
+                    <div class="col-12 col-md-4">voluptas vero maiores aliquam impedit repellendus cum eveniet sit voluptatum molestiae consequuntur aliquid quisquam,
+                    inventore expedita.</div>
+                    <div class="col-12 col-md-4">voluptas vero maiores aliquam impedit repellendus cum eveniet sit voluptatum molestiae consequuntur aliquid quisquam,
+                    inventore expedita.</div>
+                </div>
             </div>
-       </div>
+        </div>
+        <div class="footer-bot">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-12 text-center">loremloremloremlorem</div>
+                </div>
+            </div>
+        </div>
     </footer>
     <!-- /footer -->
 </body>
